@@ -4,12 +4,12 @@ const app = express();
 app.use(express.json());
 
 let students = [
-    { id: 1, name: "junaid",  marks: 85 },
+    { id: 1, name: "Rajiv",  marks: 85 },
     { id: 2, name: "Rahul", marks: 92 },
-    { id: 3, name: "Keshab", marks: 78 },
-    { id: 4, name: "Kiran", marks: 88 },
-    { id: 5, name: "Khan", marks: 65 },
-    { id: 6, name: "Arjun", marks: 67 }
+    { id: 3, name: "Ajit", marks: 78 },
+    { id: 4, name: "Karan", marks: 88 },
+    { id: 5, name: "Kholi", marks: 65 },
+    { id: 6, name: "Arya", marks: 67 }
 ];
 
 app.get("/students", (req, res) => {
